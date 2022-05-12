@@ -206,7 +206,9 @@ def main(attached_file):
 
     
     # Webhook del canal receptor del mensaje
+    # general
     #url = "https://hooks.slack.com/services/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"
+    # rodrigo
     url = "https://hooks.slack.com/services/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"
 
     absent_name_str = '\n'.join(absent_name_1)
@@ -263,8 +265,3 @@ def main(attached_file):
             ]
         }
     )
-
-    if(result.text == "ok"):
-        print("Successful")
-    else:
-        print(result.text)
